@@ -9,6 +9,13 @@
 ![](https://github-readme-streak-stats.herokuapp.com/?user=mayank-mymuse&theme=dark&hide_border=false)<br/>
 ![](https://github-readme-stats.vercel.app/api/top-langs/?username=mayank-mymuse&theme=dark&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
 
+## 🐍 Contribution Snake
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/mayank-mymuse/mayank-mymuse/output/github-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/mayank-mymuse/mayank-mymuse/output/github-snake.svg" />
+  <img alt="Snake eating my GitHub contributions" src="https://raw.githubusercontent.com/mayank-mymuse/mayank-mymuse/output/github-snake.svg" />
+</picture>
+
 ## 🏆 GitHub Trophies
 ![](https://github-profile-trophy.vercel.app/?username=mayank-mymuse&theme=radical&no-frame=false&no-bg=false&margin-w=4)
 
