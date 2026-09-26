@@ -7,11 +7,22 @@
 # 💫 About Me:
 ```ts
 const mayank = {
-  workingOn:   "AI agents and automation @ MyMuse",
-  focus:       ["agent workflows", "AI tooling", "developer tools"],
-  learning:    ["multi-agent systems", "Model Context Protocol (MCP)"],
-  askMeAbout:  ["Next.js", "Node.js", "cloud deployments", "wiring AI into real products"],
-  openTo:      "collaborating on AI tooling and agent workflows",
+  role: "AI agents & automation",
+  company: "MyMuse",
+  focus: [
+    "agent workflows",
+    "AI tooling",
+    "developer tools",
+  ],
+  learning: [
+    "multi-agent systems",
+    "Model Context Protocol",
+  ],
+  askMeAbout: [
+    "Next.js", "Node.js",
+    "cloud deployments",
+    "AI in real products",
+  ],
 };
 ```
 
