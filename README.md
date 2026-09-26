@@ -5,25 +5,38 @@
 </p>
 
 # 💫 About Me:
-```ts
-const mayank = {
-  role: "AI agents & automation",
-  company: "MyMuse",
-  focus: [
-    "agent workflows",
-    "AI tooling",
-    "developer tools",
-  ],
-  learning: [
-    "multi-agent systems",
-    "Model Context Protocol",
-  ],
-  askMeAbout: [
-    "Next.js", "Node.js",
-    "cloud deployments",
-    "AI in real products",
-  ],
-};
+```rust
+// about_me.rs
+#[derive(Debug)]
+enum Ask {
+    Role,
+    Stack,
+    Learning,
+    TalkTo,
+}
+
+fn me(q: Ask) -> &'static str {
+    match q {
+        Ask::Role =>
+            "AI agents @ MyMuse",
+        Ask::Stack =>
+            "Next.js, Node, Cloud",
+        Ask::Learning =>
+            "multi-agent + MCP",
+        Ask::TalkTo =>
+            "AI in real products",
+    }
+}
+```
+
+```console
+$ cargo run --release
+   Compiling mayank v2026.9.0
+    Finished release [optimized]
+     Running `target/mayank`
+> turning AI into things
+> people actually use
+> no warnings, no bugs (yet)
 ```
 
 # 💻 Tech Stack:
